@@ -1,0 +1,4 @@
+Write-Host "retrieving logon failures..."
+Get-EventLog -Newest 5 -LogName Security -InstanceID 4625 | select
+timewritten, message | Out-File C:\log-fail.txt
+Write-Host "Log log-fail.txt has been created."
