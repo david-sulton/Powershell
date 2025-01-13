@@ -1,4 +1,4 @@
-## <#To get online help, type:#>
+## To get online help, type:
 - Get-Help <cmdlet-name> -Online
 
 - <#this is a comment#>
